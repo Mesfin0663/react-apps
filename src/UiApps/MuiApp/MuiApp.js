@@ -7,8 +7,11 @@ import Navbar from './Navbar'
 import {Box, Container,Stack} from '@mui/material'
 function MuiApp() {
   return (
-    <Box sx={{backgroundColor: 'red'}}>
-        <Stack direction="row" spacing={2} justifyContent='center' >
+    <Box sx={{backgroundColor: ''}}>
+        {/* stack justify content 'center 'aligns all of them together at the center 
+          but space-between shares the space evenly between the elements
+        */}
+        <Stack direction="row" spacing={2} justifyContent='space-between' >
           <Sidebar/>
           <Feed/>
           <Rightbar/>
