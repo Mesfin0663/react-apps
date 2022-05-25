@@ -3,7 +3,7 @@ import {Box} from '@mui/material'
 
 const Feed = () => {
   return (
-    <Box bgcolor='yellow'>
+    <Box bgcolor='yellow' flex={4} p={2}>
        <div>Feed</div>
 
     </Box>
